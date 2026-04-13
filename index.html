@@ -29,8 +29,11 @@
                 <a href="#skills" class="hover:text-white transition">Skills</a>
                 <a href="#experience" class="hover:text-white transition">Experience</a>
                 <a href="#contact" class="hover:text-white transition">Contact</a>
+                <!-- Resume Link -->
+                <a href="RESUME_UPDATED.pdf" download class="hover:text-white transition">Resume</a>
             </div>
-            <a href="mailto:shiv31s@gmail.com" class="apple-button text-xs py-2 px-5">Hire Me</a>
+            <!-- Fixed Hire Me button: now scrolls to Contact -->
+            <a href="#contact" class="apple-button text-xs py-2 px-5">Hire Me</a>
         </div>
     </nav>
 
@@ -44,6 +47,10 @@
             </p>
             <div class="flex flex-col md:flex-row items-center justify-center gap-4">
                 <a href="#skills" class="apple-button">Explore My Skills</a>
+                <!-- Resume Download Option -->
+                <a href="RESUME_UPDATED.pdf" download class="flex items-center text-gray-400 hover:text-white gap-2 px-6 py-3 transition">
+                    Download Resume <i data-lucide="download" class="w-4 h-4"></i>
+                </a>
                 <a href="https://www.linkedin.com/in/shivyadav2004" target="_blank" class="flex items-center text-gray-400 hover:text-white gap-2 px-6 py-3 transition">
                     LinkedIn <i data-lucide="external-link" class="w-4 h-4"></i>
                 </a>
@@ -57,33 +64,33 @@
             <div class="grid md:grid-cols-2 gap-12 items-center">
                 <div>
                     <h3 class="text-3xl font-bold mb-6">About Me</h3>
-                    <p class="text-gray-400 leading-relaxed mb-6">
-                        I am currently pursuing my B.Tech in Computer Science Engineering (Expected 2027). My focus lies in developing a deep understanding of core CS concepts while applying them to modern technologies.
+                    <p class="text-gray-400 leading-relaxed mb-6 text-lg">
+                        I am <span class="text-white font-medium">Shiv Yadav</span>, a <span id="current-age" class="text-white font-medium">21</span>-year-old developer currently pursuing my B.Tech in Computer Science Engineering (Expected 2027). My focus lies in developing a deep understanding of core CS concepts while applying them to modern technologies.
                     </p>
                     <div class="space-y-4">
                         <div class="flex items-start gap-4">
                             <div class="p-2 glass rounded-lg"><i data-lucide="graduation-cap" class="text-blue-500"></i></div>
                             <div>
-                                <h4 class="font-medium">Class 12th (91%)</h4>
-                                <p class="text-sm text-gray-500 text-sm">Vidya Bhavan Public School</p>
+                                <h4 class="font-medium text-lg">Class 12th (91%)</h4>
+                                <p class="text-gray-500">Vidya Bhavan Public School</p>
                             </div>
                         </div>
                         <div class="flex items-start gap-4">
                             <div class="p-2 glass rounded-lg"><i data-lucide="award" class="text-blue-500"></i></div>
                             <div>
-                                <h4 class="font-medium">Oracle Certified Professional</h4>
-                                <p class="text-sm text-gray-500">Generative AI Professional</p>
+                                <h4 class="font-medium text-lg">Oracle Certified Professional</h4>
+                                <p class="text-gray-500">Generative AI Professional</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="glass p-8 rounded-3xl border-white/5">
                     <h4 class="text-xl font-bold mb-4">Certifications</h4>
-                    <ul class="space-y-3 text-sm text-gray-400">
-                        <li class="flex items-center gap-2"> <i data-lucide="check-circle-2" class="w-4 h-4 text-green-500"></i> Java Full Stack Developer Internship (2024)</li>
-                        <li class="flex items-center gap-2"> <i data-lucide="check-circle-2" class="w-4 h-4 text-green-500"></i> Google Developers Virtual Internship (2023)</li>
-                        <li class="flex items-center gap-2"> <i data-lucide="check-circle-2" class="w-4 h-4 text-green-500"></i> Cloud Computing - NPTEL (2023)</li>
-                        <li class="flex items-center gap-2"> <i data-lucide="check-circle-2" class="w-4 h-4 text-green-500"></i> Data Structures & Algorithms - NPTEL</li>
+                    <ul class="space-y-3 text-gray-400">
+                        <li class="flex items-center gap-2"> <i data-lucide="check-circle-2" class="w-5 h-5 text-green-500"></i> Java Full Stack Developer Internship (2024)</li>
+                        <li class="flex items-center gap-2"> <i data-lucide="check-circle-2" class="w-5 h-5 text-green-500"></i> Google Developers Virtual Internship (2023)</li>
+                        <li class="flex items-center gap-2"> <i data-lucide="check-circle-2" class="w-5 h-5 text-green-500"></i> Cloud Computing - NPTEL (2023)</li>
+                        <li class="flex items-center gap-2"> <i data-lucide="check-circle-2" class="w-5 h-5 text-green-500"></i> Data Structures & Algorithms - NPTEL</li>
                     </ul>
                 </div>
             </div>
@@ -95,15 +102,15 @@
         <div class="max-w-6xl mx-auto px-6">
             <div class="text-center mb-20">
                 <h3 class="text-4xl font-bold mb-4">Technical Stack</h3>
-                <p class="text-gray-500">My toolbox for building scalable solutions.</p>
+                <p class="text-gray-500 text-lg">My toolbox for building scalable solutions.</p>
             </div>
             
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <!-- Group 1 -->
                 <div class="glass p-8 rounded-3xl skill-card transition duration-500">
                     <i data-lucide="code-2" class="mb-6 text-blue-500"></i>
-                    <h4 class="text-lg font-semibold mb-4">Languages</h4>
-                    <div class="flex flex-wrap gap-2 text-sm text-gray-400">
+                    <h4 class="text-xl font-semibold mb-4">Languages</h4>
+                    <div class="flex flex-wrap gap-2 text-gray-400">
                         <span class="px-3 py-1 bg-white/5 rounded-full">Python</span>
                         <span class="px-3 py-1 bg-white/5 rounded-full">Java</span>
                         <span class="px-3 py-1 bg-white/5 rounded-full">C++</span>
@@ -114,8 +121,8 @@
                 <!-- Group 2 -->
                 <div class="glass p-8 rounded-3xl skill-card transition duration-500">
                     <i data-lucide="cpu" class="mb-6 text-purple-500"></i>
-                    <h4 class="text-lg font-semibold mb-4">Core CS & AI</h4>
-                    <div class="flex flex-wrap gap-2 text-sm text-gray-400">
+                    <h4 class="text-xl font-semibold mb-4">Core CS & AI</h4>
+                    <div class="flex flex-wrap gap-2 text-gray-400">
                         <span class="px-3 py-1 bg-white/5 rounded-full">DSA</span>
                         <span class="px-3 py-1 bg-white/5 rounded-full">OS</span>
                         <span class="px-3 py-1 bg-white/5 rounded-full">Machine Learning</span>
@@ -127,8 +134,8 @@
                 <!-- Group 3 -->
                 <div class="glass p-8 rounded-3xl skill-card transition duration-500">
                     <i data-lucide="layout" class="mb-6 text-pink-500"></i>
-                    <h4 class="text-lg font-semibold mb-4">Web & Tools</h4>
-                    <div class="flex flex-wrap gap-2 text-sm text-gray-400">
+                    <h4 class="text-xl font-semibold mb-4">Web & Tools</h4>
+                    <div class="flex flex-wrap gap-2 text-gray-400">
                         <span class="px-3 py-1 bg-white/5 rounded-full">HTML5</span>
                         <span class="px-3 py-1 bg-white/5 rounded-full">Frontend Dev</span>
                         <span class="px-3 py-1 bg-white/5 rounded-full">Canva</span>
@@ -146,11 +153,11 @@
             <div class="relative border-l border-white/10 pl-8 pb-4">
                 <div class="absolute -left-[5px] top-0 w-2.5 h-2.5 bg-blue-500 rounded-full"></div>
                 <div class="mb-2 flex justify-between items-center">
-                    <h4 class="text-xl font-semibold">Private Home Tutor</h4>
-                    <span class="text-sm text-gray-500">2023 — Present</span>
+                    <h4 class="text-2xl font-semibold">Private Home Tutor</h4>
+                    <span class="text-gray-500">2023 — Present</span>
                 </div>
-                <p class="text-blue-500 text-sm mb-4 italic">Remote / Gwalior, India</p>
-                <ul class="space-y-3 text-gray-400 text-sm leading-relaxed">
+                <p class="text-blue-500 text-lg mb-4 italic">Remote / Gwalior, India</p>
+                <ul class="space-y-3 text-gray-400 text-lg leading-relaxed">
                     <li>• Specialized in strengthening core concepts for students up to Class 8th.</li>
                     <li>• Developed personalized teaching methods to improve academic performance.</li>
                     <li>• Mentored students to build self-confidence and reduce academic anxiety.</li>
@@ -163,26 +170,26 @@
     <section id="contact" class="section-padding">
         <div class="max-w-4xl mx-auto px-6 text-center">
             <h3 class="text-5xl font-bold mb-8">Get in Touch.</h3>
-            <p class="text-gray-400 mb-12 text-lg">Interested in working together or just want to say hi?</p>
+            <p class="text-gray-400 mb-12 text-xl">Interested in working together or just want to say hi?</p>
             
             <div class="flex flex-wrap justify-center gap-8 mb-16">
                 <a href="mailto:shiv31s@gmail.com" class="flex flex-col items-center gap-2 group">
-                    <div class="w-16 h-16 glass rounded-2xl flex items-center justify-center group-hover:scale-110 transition">
+                    <div class="w-16 h-16 glass rounded-2xl flex items-center justify-center transition">
                         <i data-lucide="mail"></i>
                     </div>
-                    <span class="text-xs text-gray-500">Email</span>
+                    <span class="text-sm text-gray-500">Email</span>
                 </a>
-                <a href="https://www.linkedin.com/in/shiv-yadav-2004" target="_blank" class="flex flex-col items-center gap-2 group">
-                    <div class="w-16 h-16 glass rounded-2xl flex items-center justify-center group-hover:scale-110 transition">
+                <a href="https://www.linkedin.com/in/shivyadav2004" target="_blank" class="flex flex-col items-center gap-2 group">
+                    <div class="w-16 h-16 glass rounded-2xl flex items-center justify-center transition">
                         <i data-lucide="linkedin"></i>
                     </div>
-                    <span class="text-xs text-gray-500">LinkedIn</span>
+                    <span class="text-sm text-gray-500">LinkedIn</span>
                 </a>
                 <a href="tel:7223921334" class="flex flex-col items-center gap-2 group">
-                    <div class="w-16 h-16 glass rounded-2xl flex items-center justify-center group-hover:scale-110 transition">
+                    <div class="w-16 h-16 glass rounded-2xl flex items-center justify-center transition">
                         <i data-lucide="phone"></i>
                     </div>
-                    <span class="text-xs text-gray-500">Call</span>
+                    <span class="text-sm text-gray-500">Call</span>
                 </a>
             </div>
 
@@ -193,6 +200,20 @@
     <script>
         // Initialize Lucide Icons
         lucide.createIcons();
+
+        // Dynamic Age Calculation
+        function calculateAge() {
+            const birthDate = new Date('2004-07-26');
+            const today = new Date();
+            let age = today.getFullYear() - birthDate.getFullYear();
+            const monthDiff = today.getMonth() - birthDate.getMonth();
+            
+            if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
+                age--;
+            }
+            document.getElementById('current-age').innerText = age;
+        }
+        calculateAge();
     </script>
 </body>
 </html>
